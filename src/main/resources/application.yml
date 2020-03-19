@@ -1,0 +1,16 @@
+# General configuration
+server:
+  port: 12345
+  servlet:
+    context-path: /examples/mysql
+
+logging:
+  config: classpath:log4j.properties
+
+spring:
+   main:    allow-bean-definition-overriding: true
+   datasource:
+     url: jdbc:mysql://127.0.0.1:3306/mypoj
+     username: root
+     password: root
+     driverClassName: com.mysql.cj.jdbc.Driver
