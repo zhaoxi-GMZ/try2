@@ -5,7 +5,7 @@ package com.github.webfrk;
 
 import java.util.ArrayList;
 import java.util.List;
-
+aaa
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.ComponentScan;
 
